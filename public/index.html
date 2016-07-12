@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="olympicGenerator">
+  <head>
+    <meta charset="utf-8">
+    <title>Olympics</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="angular.min.js"></script>
+    <script src="client.js"></script>
+  </head>
+  <body ng-controller="MainController">
+    <header><h1>Generate 5 Olympic Athletes</h1></header>
+    <div class="wrapper">
+      <button ng-click="generate()"><span>Generate</span></button>
+        <div class="athlete" ng-repeat="athlete in athletes">
+          <h3> {{athlete.sport}}</h3>
+          <h4>Name: {{athlete.name}}</h4>
+          <h5>Hometown: {{athlete.origin}}</h5></li>
+        </div>
+      </div>
+    </body>
+</html>

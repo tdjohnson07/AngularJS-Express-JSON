@@ -1,0 +1,45 @@
+body{
+  background-color: blue;
+  }
+header{
+  background-image: url('images/american_flag.jpg');
+  height: 80px;
+}
+header h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: white;
+  text-align: center;
+}
+.wrapper{
+  font-family: Georgia, Times, "Times New Roman", serif;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+}
+button{
+  font-family: "Arial Black", "Arial Bold", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:  gold;
+  height: 150px;
+  width: 150px;
+  background-image: url('/images/stars.jpg');
+  background-size: 150px 150px;
+    float: left;
+    border-radius: 20px;
+}
+span{
+  background: #1f3187;
+}
+.athlete{
+  height: 150px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+.athlete:nth-child(even){
+  background-color: red;
+}
+.athlete:nth-child(odd){
+  background-color: white;
+}
